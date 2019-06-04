@@ -1,4 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Application Overview
+
+Displays the list of products based on the data from the API https://api.jsonbin.io/b/5cae9a54fb42337645ebcad3
+
+#### Contains 2 screens
+
+- Product List screen
+- Individual Product screen(On click on the product)
+
+### Addons used
+- Redux
+- Redux-saga
+- Sass
+- axios
+- react-router-dom
+- grid css alone from bootstrap used
+
+## `npm install`
+
+Gets all the dependecies
 
 ## Available Scripts
 
@@ -24,39 +44,3 @@ If you are using Create React App, instead of adding to your `package.json` as a
 // src/setupTests.js
 import "jest-enzyme";
 ```
-
-This is documented on Create React App at the bottom of the [Testing Components](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#testing-components) section. There is also more information about [Initializing Test Environment](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#initializing-test-environment).
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
