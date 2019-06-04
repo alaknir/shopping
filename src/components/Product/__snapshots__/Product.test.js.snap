@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product container Should render properly 1`] = `
+<Product
+  id="12_34"
+  imgSrc=""
+  isExclusive={true}
+  isSale={true}
+  price="$15.00"
+  productName="test1"
+  size={
+    Array [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+    ]
+  }
+>
+  <div
+    className="product"
+  >
+    <img
+      alt="test1"
+      className="product__product-img"
+      src=""
+    />
+    <ProductSpeciality
+      isExclusive={true}
+      isSale={true}
+    >
+      <div
+        className="row product-spl"
+      >
+        <div
+          className="col-xs-12 product-spl__badge"
+        >
+          <span
+            className="product-spl__badge-sale"
+          >
+            Sale
+          </span>
+          <span
+            className="product-spl__badge-exclusive"
+          >
+            Exclusive
+          </span>
+        </div>
+      </div>
+    </ProductSpeciality>
+    <div>
+      <span
+        className="product__product-name"
+      >
+        test1
+      </span>
+      <span
+        className="product__product-price"
+      >
+        $15.00
+      </span>
+    </div>
+  </div>
+</Product>
+`;

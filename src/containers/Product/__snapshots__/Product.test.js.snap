@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Product container Should render properly 1`] = `
-<Product>
-  <div>
-    Product
-  </div>
-</Product>
-`;

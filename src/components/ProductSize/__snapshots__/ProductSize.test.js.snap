@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductSize  Should render properly 1`] = `
+<ProductSize
+  productId="1234"
+  size={
+    Array [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+    ]
+  }
+  sizeList={Array []}
+/>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsHeader  Should render properly 1`] = `
+<ProductsHeader
+  heading="heading"
+>
+  <div
+    className="row product-header"
+  >
+    <div
+      className="col-xs-8 product-header__heading "
+    >
+      heading
+    </div>
+    <div
+      className="col-xs-4"
+    />
+  </div>
+</ProductsHeader>
+`;
+
+exports[`ProductsHeader  Should render properly with children 1`] = `
+<ProductsHeader
+  heading="heading"
+>
+  <div
+    className="row product-header"
+  >
+    <div
+      className="col-xs-8 product-header__heading "
+    >
+      heading
+    </div>
+    <div
+      className="col-xs-4"
+    >
+      <div>
+        this is test
+      </div>
+    </div>
+  </div>
+</ProductsHeader>
+`;

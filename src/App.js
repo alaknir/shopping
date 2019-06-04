@@ -7,11 +7,10 @@ import {
 } from "react-router-dom";
 import Products from "./layouts/Products";
 import Product from "./layouts/Product";
-import "./App.css";
+import "./App.scss";
 
 const App = () => (
   <div className="App">
-    <header className="">Shopping</header>
     <div className="container">
       <Router>
         <Switch>

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductSpeciality  Should render properly isExclusive 1`] = `
+<ProductSpeciality
+  isExclusive={true}
+  isSale={false}
+>
+  <div
+    className="row product-spl"
+  >
+    <div
+      className="col-xs-12 product-spl__badge"
+    >
+      <span
+        className="product-spl__badge-exclusive"
+      >
+        Exclusive
+      </span>
+    </div>
+  </div>
+</ProductSpeciality>
+`;
+
+exports[`ProductSpeciality  Should render properly isSale 1`] = `
+<ProductSpeciality
+  isExclusive={false}
+  isSale={true}
+>
+  <div
+    className="row product-spl"
+  >
+    <div
+      className="col-xs-12 product-spl__badge"
+    >
+      <span
+        className="product-spl__badge-sale"
+      >
+        Sale
+      </span>
+    </div>
+  </div>
+</ProductSpeciality>
+`;
