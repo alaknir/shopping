@@ -90,7 +90,6 @@ Products.defaultProps = {
 const maptStateToProps = state => {
   const products = state.products.data;
   const sizeList = Array.from(getMaxSizeList(products)) || [];
-  console.log(sizeList);
   return {
     products,
     sizeList

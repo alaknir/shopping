@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const ProductSpeciality = ({ isExclusive, isSale }) => (
   <div className="row product-spl">
@@ -10,6 +11,11 @@ const ProductSpeciality = ({ isExclusive, isSale }) => (
     </div>
   </div>
 );
+
+ProductSpeciality.propTpyes = {
+  isSale: PropTypes.bool,
+  isExclusive: PropTypes.bool
+};
 
 ProductSpeciality.defaultProps = {
   isExclusive: false,

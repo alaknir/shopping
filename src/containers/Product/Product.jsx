@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { withRouter, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 
@@ -47,4 +48,12 @@ const mapStateToProps = state => ({
   products: state.products.data
 });
 
+ProductContainer.propTypes = {
+  products: PropTypes.shape([]),
+  match: PropTypes.shape({}).isRequired
+};
+
+ProductContainer.defaultProps = {
+  products: []
+};
 export default connect(mapStateToProps)(withRouter(ProductContainer));

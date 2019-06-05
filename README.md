@@ -15,6 +15,8 @@ Displays the list of products based on the data from the API https://api.jsonbin
 - axios
 - react-router-dom
 - grid css alone from bootstrap used
+- eSlint code analyser used for static code validation
+- used prettier(Esben Petersen) for code auto format
 
 ## `npm install`
 
@@ -44,3 +46,11 @@ If you are using Create React App, instead of adding to your `package.json` as a
 // src/setupTests.js
 import "jest-enzyme";
 ```
+
+### Node-sass installation 
+
+if facing issue in installing node sass 
+download binary node from `https://github.com/sass/node-sass/releases/download/v4.12.0/win32-x64-64_binding.node`
+
+`$ set SASS_BINARY_PATH={binaryfilepath}\win32-x64-64_binding.node`
+`$ npm install` 

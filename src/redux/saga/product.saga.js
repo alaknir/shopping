@@ -4,7 +4,7 @@ import { getProducts } from "../../api";
 import * as actions from "../actions";
 
 const replaceSpace = (str = "", replaceChar = "_") =>
-  str.replace(/[ \/]/g, replaceChar);
+  str.replace(/[ \/]/g, replaceChar); // eslint-disable-line
 
 const normalizeproductsData = products =>
   products.map(product => ({
